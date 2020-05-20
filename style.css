@@ -8,6 +8,7 @@ body{
     background-size: cover;
     background-position: center;
     transition: background-image 0.5s;
+    background-repeat: no-repeat;
 }
 
 section,footer{
