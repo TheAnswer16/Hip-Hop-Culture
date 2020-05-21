@@ -8,7 +8,7 @@ body{
     background-size: cover;
     background-position: center;
     transition: background-image 0.5s;
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
 }
 
 section,footer{
@@ -108,7 +108,6 @@ header h1{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    
 }
 
 .link-fig{
@@ -237,11 +236,33 @@ header h1{
         font-size:80px;
     }
 
+    nav ul li a{
+        font-size:15px;
+    }
+
     section{
         width: 100%;
     }
 
-    i{
+    .titulo-secundario{
+        font-size:25px;
+    }
+
+    #about p{
+        font-size:15px;
+    }
+
+    .flex-social img{
+        width: 30px;
+        transition: 0.5s width;
+    }
+
+    .flex-social img:hover{
+        width: 35px;
+    }
+
+
+    .flex-social i{
      font-size:20px;   
     }
 
@@ -249,6 +270,22 @@ header h1{
         font-size:15px;
     }
     
+    .img-link{
+        width: 100px;
+        border-radius: 50%;
+        height: 100px;
+        /*padding: 10px;*/
+        background-color:#80D2F2;
+        transition: 0.5s padding;
+        margin-top:15px;
+        
+    }
+
+    .img-align{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
 
 
     
