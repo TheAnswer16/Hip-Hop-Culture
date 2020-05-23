@@ -129,14 +129,16 @@ header h1{
     width: 230px;
     border-radius: 50%;
     height: 230px;
-    /*padding: 10px;*/
+    padding: 10px;
     background-color:#80D2F2;
-    transition: 0.5s padding;
+    transition: 0.5s padding, 0.5s width, 0.5s height;
     margin-top:15px;
 }
 
 .img-link:hover{
-    padding:10px;
+    width:250px;
+    height:250px;
+    padding:0;
     cursor: pointer;
 }
 
