@@ -142,11 +142,6 @@ header h1{
     cursor: pointer;
 }
 
-.img-link:active{
-    background-image:linear-gradient(#0E2F59,#1453A6);
-}
-
-
 #contato{
     background-color:#0A2740;
 }
@@ -278,11 +273,17 @@ header h1{
         width: 100px;
         border-radius: 50%;
         height: 100px;
-        /*padding: 10px;*/
+        padding: 10px;
         background-color:#80D2F2;
-        transition: 0.5s padding;
+        transition: 0.5s padding, 0.5s width, 0.5s height;
         margin-top:15px;
         
+    }
+
+    .img-link:hover{
+        width: 150px;
+        height: 150px;
+        padding:0;
     }
 
     .img-align{
